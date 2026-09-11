@@ -1,0 +1,14 @@
+name: Bug report
+description: Report an unexpected result without sharing private conversation content.
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: Include the command, version, and sanitized output. Do not attach your database.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Windows and Python version
+    validations:
+      required: true
